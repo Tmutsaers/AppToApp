@@ -7,10 +7,14 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <Image x:Name="image" HorizontalAlignment="Center" VerticalAlignment="Center" Height="200" Width="200" Margin="80,14,80,426" />
-        <Button x:Name="button" Content="Exit" HorizontalAlignment="Center" VerticalAlignment="Center" Height="95" Width="136" Click="button_Click" Margin="114,518,110,27"/>
-        <TextBlock x:Name="textBlock" HorizontalAlignment="Center" VerticalAlignment="top" Margin="82,235,0,0" TextWrapping="Wrap" Text="Default" Height="200" Width="200" TextAlignment="Center"/>
-
+    <ScrollViewer VerticalScrollMode="Enabled" VerticalScrollBarVisibility="Visible" BringIntoViewOnFocusChange="False">
+        <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <StackPanel Orientation="Vertical">
+        <Image x:Name="image" HorizontalAlignment="Center" VerticalAlignment="Center" Height="200" Width="200" />
+            <TextBlock x:Name="textBlock" HorizontalAlignment="Center" VerticalAlignment="top"  TextWrapping="Wrap" Text="Default" Height="200" Width="200" TextAlignment="Center"/>
+            <Button x:Name="button" Content="Exit" HorizontalAlignment="Center" VerticalAlignment="Center" Height="95" Width="136" Click="button_Click" />
+       
+        </StackPanel>
     </Grid>
+    </ScrollViewer>
 </Page>
