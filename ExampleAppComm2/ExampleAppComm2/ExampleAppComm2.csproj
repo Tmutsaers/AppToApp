@@ -111,6 +111,20 @@
     <None Include="ExampleAppComm2_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\info\Animecon.txt" />
+    <Content Include="Assets\info\Comiccon.txt" />
+    <Content Include="Assets\info\default.txt" />
+    <Content Include="Assets\info\MGC Experience.txt" />
+    <Content Include="Assets\info\Nishicon.txt" />
+    <Content Include="Assets\info\Tomocon.txt" />
+    <Content Include="Assets\info\Tsunacon.txt" />
+    <Content Include="Assets\logos\animecon.jpg" />
+    <Content Include="Assets\logos\dcc.png" />
+    <Content Include="Assets\logos\logo.png" />
+    <Content Include="Assets\logos\mgc.jpg" />
+    <Content Include="Assets\logos\nishicon.png" />
+    <Content Include="Assets\logos\tomocon.jpg" />
+    <Content Include="Assets\logos\tsunacon.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
